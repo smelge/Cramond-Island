@@ -1,0 +1,37 @@
+Changes to Cramond Island between design and Prototype
+=======================================================
+
+header.php
+	- Added box around logo to assist with smaller screen sizes
+
+template.php / admintemplate.php
+	- Created Template.php as way to create pages with same structure as the rest
+
+Database
+	- Gender column added to customers (not in design)
+	- Payment (Int(1)) added to bookings (not in design)
+	- cost (decimal 5,2) added to bookings (not in design)
+
+Bookings.php
+	- Room selection moved from left column to right column (allows for 2 seperate forms)
+	- Left column turned into individual form for reloading page
+	- Added login button to left 
+	
+scripts.php
+	- Added scripts.php to allow less javascript in each page head and to enable the use of tinymce and datepicker throughout, while loading in correct order
+	
+addrooms.php
+	- created script to populate rooms database
+	
+admin/booked.php
+	- Removed filtering from design specification
+	
+designed for desktop pc or larger screens. Partially responsive.
+	
+
+	
+	TO DO
+	=========================
+	
+	* Code checker
+	* Implement to live server
